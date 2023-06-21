@@ -10,7 +10,7 @@ import { bank } from './redux/banking';
 
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://banking-server.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
